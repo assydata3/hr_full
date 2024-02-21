@@ -1,7 +1,7 @@
 <nav class="navbar header-navbar pcoded-header">
     <div class="navbar-wrapper">
         <div class="navbar-logo">
-            <a href="index.html"><img class="img-fluid" src="source/png/logo.png" alt="Theme-Logo" /></a>
+            <a href="index.html"><img class="img-fluid" src="<?php echo $page_path?>source/png/logo.png" alt="Theme-Logo" /></a>
             <a class="mobile-menu" id="mobile-collapse" href="#!"><i class="feather icon-menu icon-toggle-right"></i></a>
             <a class="mobile-options waves-effect waves-light"><i class="feather icon-more-horizontal"></i></a>
         </div>
@@ -29,7 +29,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="img-radius" src="source/jpg/avatar-4.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="<?php echo $page_path?>source/jpg/avatar-4.jpg" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">John Doe</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -39,7 +39,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="img-radius" src="source/jpg/avatar-3.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="<?php echo $page_path?>source/jpg/avatar-3.jpg" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Joseph William</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -49,7 +49,7 @@
                             </li>
                             <li>
                                 <div class="media">
-                                    <img class="img-radius" src="source/jpg/avatar-4.jpg" alt="Generic placeholder image">
+                                    <img class="img-radius" src="<?php echo $page_path?>source/jpg/avatar-4.jpg" alt="Generic placeholder image">
                                     <div class="media-body">
                                         <h5 class="notification-user">Sara Soudein</h5>
                                         <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
@@ -73,7 +73,7 @@
                 <li class="user-profile header-notification">
                     <div class="dropdown-primary dropdown">
                         <div class="dropdown-toggle" data-toggle="dropdown">
-                            <img src="source/jpg/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
+                            <img src="<?php echo $page_path?>source/jpg/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
                             <span>John Doe</span>
                             <i class="feather icon-chevron-down"></i>
                         </div>

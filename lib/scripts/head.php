@@ -12,14 +12,14 @@
 <?php */?>
 
 
-<link href="source/fonts/openSan.css" rel="stylesheet">
-<link href="source/fonts/quickSan.css" rel="stylesheet">
+<link href="<?php echo $page_path?>source/fonts/openSan.css" rel="stylesheet">
+<link href="<?php echo $page_path?>source/fonts/quickSan.css" rel="stylesheet">
 
 
-<link rel="stylesheet" type="text/css" href="source/css/bootstrap.min.css">
-<link rel="stylesheet" href="source/css/waves.min.css" type="text/css" media="all">
-<link rel="stylesheet" type="text/css" href="source/css/feather.css">
-<link rel="stylesheet" type="text/css" href="source/css/font-awesome-n.min.css">
-<link rel="stylesheet" href="source/css/chartist.css" type="text/css" media="all">
-<link rel="stylesheet" type="text/css" href="source/css/style.css">
-<link rel="stylesheet" type="text/css" href="source/css/widget.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $page_path?>source/css/bootstrap.min.css">
+<link rel="stylesheet" href="<?php echo $page_path?>source/css/waves.min.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo $page_path?>source/css/feather.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $page_path?>source/css/font-awesome-n.min.css">
+<link rel="stylesheet" href="<?php echo $page_path?>source/css/chartist.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="<?php echo $page_path?>source/css/style.css">
+<link rel="stylesheet" type="text/css" href="<?php echo $page_path?>source/css/widget.css">

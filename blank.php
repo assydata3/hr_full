@@ -1,3 +1,10 @@
+<?php 
+####================ SETTING BEGIN ===========================####
+$page_path = ''; 
+####==========================================================####
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +12,7 @@
 
 <head>
   <title>SYSTEM DATA</title>
-  <?php require_once __DIR__.'/lib/scripts/head.php'?>
+  <?php require_once __DIR__."/$page_path/lib/scripts/head.php"?>
 
 </head>
 
@@ -19,14 +26,14 @@
 <div id="pcoded" class="pcoded">
 <div class="pcoded-overlay-box"></div>
 <div class="pcoded-container navbar-wrapper">
-  <?php require_once __DIR__.'/lib/scripts/taskbar_origin.php'?>
-  <?php require_once __DIR__.'/lib/scripts/taskbar_showchat.php'?>
+  <?php require_once __DIR__."/$page_path/lib/scripts/taskbar.php"?>
+  <?php require_once __DIR__."/$page_path/lib/scripts/taskbar_showchat.php"?>  
 
 
 
 <div class="pcoded-main-container">
 <div class="pcoded-wrapper">
-  <?php require_once __DIR__.'/lib/scripts/menubar_origin.php'?>
+<?php require_once __DIR__."/$page_path/lib/scripts/menubar_origin.php"?>
 
 <div class="pcoded-content">
 
@@ -102,7 +109,7 @@
 </div>
 
 
-<?php require_once __DIR__.'/lib/scripts/javascript_origin.php'?>
+<?php require_once __DIR__."/$page_path/lib/scripts/javascript_origin.php"?>
 </body>
 
 <!-- Mirrored from colorlib.com/polygon/admindek/default/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 12 Dec 2019 16:08:25 GMT -->
